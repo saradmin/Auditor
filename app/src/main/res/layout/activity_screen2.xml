@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Spinner
+        android:id="@+id/spinnerAddresses"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+    <Button
+        android:id="@+id/btn2screen3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Записать"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/exvalues_text"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="28dp"
+        android:text="Пред. показания:"
+        android:textAlignment="viewEnd"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amp_text2" />
+
+    <TextView
+        android:id="@+id/amp_text2"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="28dp"
+        android:text="АМП:"
+        android:textAlignment="viewEnd"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countertype_text2" />
+
+    <TextView
+        android:id="@+id/countertype_text2"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="28dp"
+        android:text="Тип счётчика:"
+        android:textAlignment="viewEnd"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pov_text2" />
+
+    <TextView
+        android:id="@+id/pov_text2"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="28dp"
+        android:text="Дата поверки:"
+        android:textAlignment="viewEnd"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/counter_text2" />
+
+    <TextView
+        android:id="@+id/counter_text2"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="28dp"
+        android:text="Номер счётчика:"
+        android:textAlignment="viewEnd"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rooms_text2" />
+
+    <TextView
+        android:id="@+id/rooms_text2"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="28dp"
+        android:text="Кол-во комнат:"
+        android:textAlignment="viewEnd"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/people_text" />
+
+    <TextView
+        android:id="@+id/people_text"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="28dp"
+        android:text="Проживающие:"
+        android:textAlignment="viewEnd"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ls_text" />
+
+    <TextView
+        android:id="@+id/ls_text"
+        android:layout_width="168dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:text="Лицевой счет:"
+        android:textAlignment="viewEnd"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerAddresses" />
+
+    <EditText
+        android:id="@+id/counter_values_1 "
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textAlignment="center"
+        android:textColorLink="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Информация о потребителе"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Показания ПУ:"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exvalues_text" />
+
+    <TextView
+        android:id="@+id/exvalues_val"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/exvalues_text"
+        app:layout_constraintTop_toBottomOf="@+id/amp_val2" />
+
+    <TextView
+        android:id="@+id/amp_val2"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/amp_text2"
+        app:layout_constraintTop_toBottomOf="@+id/countertype_val2" />
+
+    <TextView
+        android:id="@+id/countertype_val2"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/countertype_text2"
+        app:layout_constraintTop_toBottomOf="@+id/pov_val2" />
+
+    <TextView
+        android:id="@+id/pov_val2"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/pov_text2"
+        app:layout_constraintTop_toBottomOf="@+id/counter_val2" />
+
+    <TextView
+        android:id="@+id/counter_val2"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/counter_text2"
+        app:layout_constraintTop_toBottomOf="@+id/rooms_val2" />
+
+    <TextView
+        android:id="@+id/rooms_val2"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/rooms_text2"
+        app:layout_constraintTop_toBottomOf="@+id/people_val" />
+
+    <TextView
+        android:id="@+id/people_val"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/people_text"
+        app:layout_constraintTop_toBottomOf="@+id/ls_val" />
+
+    <TextView
+        android:id="@+id/ls_val"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ls_text"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerAddresses" />
+
+</android.support.constraint.ConstraintLayout>
