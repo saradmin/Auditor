@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Контролёр Облкоммунэнерго</string>
+    <string name="ab_ls_text">Лицевой счет:</string>
+    <string name="btn2screen3_text">Сохранить показания</string>
+    <string name="ab_type_text">Тип потребителя:</string>
+    <string name="ab_amp_text">АМП:</string>
+    <string name="ab_counttype_text">Тип счётчика:</string>
+    <string name="ab_povdate_text">Дата поверки:</string>
+    <string name="ab_countnum_text">Номер счётчика:</string>
+    <string name="ab_rooms_text">Кол-во комнат:</string>
+    <string name="ab_people_text">Проживающие:</string>
+    <string name="ab_info_text">Информация о потребителе</string>
+    <string name="ab_pu_text">Показания ПУ:</string>
+    <string name="empty">!!!</string>
+
+
+
 </resources>

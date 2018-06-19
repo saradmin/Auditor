@@ -27,7 +27,7 @@ public class Screen2 extends AppCompatActivity  implements OnClickListener {
         switch (v.getId()) {
             case R.id.btn2screen3:
                 // TODO Call second activity
-                Intent intent = new Intent(this, Screen3.class);
+`                Intent intent = new Intent(this, Screen4.class);
                 startActivity(intent);
                 break;
             default:

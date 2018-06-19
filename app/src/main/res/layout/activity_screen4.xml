@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvOut"
+        android:layout_width="324dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:text="111"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="104dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="44dp"
+        android:text="OK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOut"></Button>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="94dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="52dp"
+        android:text="Cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOk"></Button>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
